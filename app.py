@@ -25,7 +25,7 @@ def model_predict(img_path):
 
     global graph
     with graph.as_default():
-        MODEL = load_model('C:/AzureProject/model4.h5')
+        MODEL = load_model('./model4.h5')
         preds = MODEL.predict(image)
     
     return preds

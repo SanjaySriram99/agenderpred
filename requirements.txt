@@ -1,0 +1,11 @@
+opencv-python
+numpy
+scipy
+tensorflow
+Pandas
+h5py
+keras
+flask
+pillow
+matplotlib
+sklearn
